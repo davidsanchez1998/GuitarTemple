@@ -1,0 +1,347 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+
+
+  .cardtrigger {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #ccc;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cardtrigger1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cardtrigger1 img {
+    max-width: 100%;
+  }
+
+  .cardtrigger1 p {
+    margin-top: 10px;
+  }
+
+  .cardlucille {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #ccc;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cardlucille1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cardlucille1 img {
+    max-width: 100%;
+  }
+
+  .cardlucille1 p {
+    margin-top: 10px;
+  }
+
+  .cardyoung {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #ccc;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cardyoung1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cardyoung1 img {
+    max-width: 100%;
+  }
+
+  .cardyoung1 p {
+    margin-top: 10px;
+  }
+
+  .cardsrv {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #ccc;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cardsrv1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cardsrv1 img {
+    max-width: 100%;
+  }
+
+  .cardsrv1 p {
+    margin-top: 10px;
+  }
+
+  .cardduane {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #ccc;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cardduane1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cardduane1 img {
+    max-width: 100%;
+  }
+
+  .cardduane1 p {
+    margin-top: 10px;
+  }
+
+  .cardwhite {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #ccc;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cardwhite1 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .cardwhite1 img {
+    max-width: 100%;
+  }
+
+  .cardwhite1 p {
+    margin-top: 10px;
+  }
+
+  
+
+
+  
+  .header {
+    color: #333;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #333;
+}
+  
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nosotrosp {
+    margin-top: 20px;
+  }
+  
+  .nosotrosimg {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nosotrosimg img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .venta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .venta img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .venta1 {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .venta1 h3 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .venta1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  .luthier {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .luthier img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .luthier1 {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .luthier1 h3 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .luthier1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  .alquiler {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .alquiler img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .alquiler1 {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .alquiler1 h3 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .alquiler1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  
+  
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+
+
+  .site-footer {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .social-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    width: 33%;
+  }
+  
+  .social-links a i {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
