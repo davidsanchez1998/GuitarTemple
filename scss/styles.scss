@@ -1,18 +1,14 @@
 * {
-    margin: 10px;
-    padding: 10px;
     box-sizing: border-box;
   }
 
-  .principal {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+  .principal{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 
-
-
-  .cardtrigger {
+  .mainCard {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 0 5px #ccc;
@@ -33,14 +29,6 @@
     margin-top: 10px;
   }
 
-  .cardlucille {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 0 5px #ccc;
-    width: 300px;
-    margin: 0 auto;
-  }
-
   .cardlucille1 {
     padding: 10px;
     text-align: center;
@@ -52,14 +40,6 @@
 
   .cardlucille1 p {
     margin-top: 10px;
-  }
-
-  .cardyoung {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 0 5px #ccc;
-    width: 300px;
-    margin: 0 auto;
   }
 
   .cardyoung1 {
@@ -75,14 +55,6 @@
     margin-top: 10px;
   }
 
-  .cardsrv {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 0 5px #ccc;
-    width: 300px;
-    margin: 0 auto;
-  }
-
   .cardsrv1 {
     padding: 10px;
     text-align: center;
@@ -96,14 +68,6 @@
     margin-top: 10px;
   }
 
-  .cardduane {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 0 5px #ccc;
-    width: 300px;
-    margin: 0 auto;
-  }
-
   .cardduane1 {
     padding: 10px;
     text-align: center;
@@ -115,14 +79,6 @@
 
   .cardduane1 p {
     margin-top: 10px;
-  }
-
-  .cardwhite {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 0 5px #ccc;
-    width: 300px;
-    margin: 0 auto;
   }
 
   .cardwhite1 {
@@ -139,10 +95,7 @@
   }
 
   
-
-
-  
-  .header {
+.header {
     color: #333;
     font-size: 27px;
     padding: 10px;
@@ -297,26 +250,6 @@
     height: auto;
     margin: 10px;
   }
-  
-
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
-
 
   .site-footer {
     display: flex;
@@ -344,4 +277,11 @@
   .social-links a i {
     font-size: 1.5em;
     margin-bottom: 0.5em;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12rem;
+    align-items: center;
   }
